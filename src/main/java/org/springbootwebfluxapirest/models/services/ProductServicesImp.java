@@ -63,10 +63,7 @@ public class ProductServicesImp implements ProductServices {
         return productDAO.save(product);
     }
 
-    @Override
-    public Mono<Void> delete(Product product) {
-        return productDAO.delete(product);
-    }
+
 
     @Override
     public Flux<Category> findAllCategory() {

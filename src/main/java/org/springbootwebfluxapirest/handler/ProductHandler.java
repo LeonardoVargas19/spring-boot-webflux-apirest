@@ -51,4 +51,7 @@ public class ProductHandler {
                 .contentType(MediaType.APPLICATION_JSON)
                 .body(fromObject(product)));
     }
+
+
+
 }

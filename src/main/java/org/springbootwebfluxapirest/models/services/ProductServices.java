@@ -21,7 +21,6 @@ public interface ProductServices {
 
     Mono<Product> save(Product product);
 
-    Mono<Void> delete(Product product);
 
     Flux<Category> findAllCategory();
 
